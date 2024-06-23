@@ -1,0 +1,42 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+}
+
+.card img{
+    height: 250px;
+    border-radius: 3%;
+}
+.contenedor1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+
+    /* height: 200px; */
+}
+
+.contenedorventa {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px; 
+}
+
+.contenedoralquiler {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
