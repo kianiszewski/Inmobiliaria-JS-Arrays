@@ -14,7 +14,7 @@ const mostrarPropiedadesAlquiler = () => {
                     <p><i class="fas fa-map-marker-alt"></i> ${alquiler.ubicacion}</p>
                     <p>Habitaciones: <i class="fas fa-bed"></i> ${alquiler.habitaciones} Habitaciones</p>
                     <p>Baños: <i class="fas fa-bath"></i> ${alquiler.banos} Baños</p>
-                    <p>Precio: <i class="fas fa-dollar-sign"></i> ${alquiler.costo} UF</p>
+                    <p>Precio: <i class="fas fa-dollar-sign"></i> ${alquiler.costo} pesos chilenos</p>
                     <p>${alquiler.smoke === true ? '<p class="text-success"><i class="fas fa-smoking"></i> Permitido fumar</p>' : '<p class="text-danger"><i class="fas fa-smoking-ban"></i> No se permite fumar</p>'}</p>
                     <p>${alquiler.pets === true ? '<p class="text-success"><i class="fas fa-paw"></i> Se permiten mascotas</p>' : '<p class="text-danger"><i class="fa-solid fa-ban"></i> No se permiten mascotas</p>'}</p>
                 </div>
